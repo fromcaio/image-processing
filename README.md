@@ -53,8 +53,7 @@ Each notebook contains:
 
 ## 📂 Repository Structure
 
-```
-
+```bash
 image-processing/
 │
 ├── notebooks/
@@ -99,7 +98,6 @@ image-processing/
 │   └── ...
 │
 └── README.md
-
 ```
 
 ## 🧰 Technologies and Tools
