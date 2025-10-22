@@ -1,15 +1,3 @@
-Perfect — that’s a great next step. Making the repository self-guided, with clear entry points and standardized English naming, will make it much easier for students or developers to follow.
-
-Below is the **improved and polished version** of your `README.md`, incorporating:
-✅ A clear “Getting Started” guide
-✅ Consistent English naming (`Exercise01.pdf`, etc.)
-✅ A new `practices/` folder
-✅ Updated `images/` folder structure with subdirectories
-✅ Improved organization and readability for GitHub presentation
-
----
-
-```markdown
 # 🧠 Image Processing
 
 This repository contains educational **Jupyter Notebooks** focused on **Digital Image Processing**, combining **theory**, **visual examples**, and **Python implementations**.
