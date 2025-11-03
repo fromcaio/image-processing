@@ -1,41 +1,51 @@
-# 🧠 Image Processing
+# 🧠 Digital Image Processing — Interactive Notebooks
 
-This repository contains educational **Jupyter Notebooks** focused on **Digital Image Processing**, combining **theory**, **visual examples**, and **Python implementations**.
+This repository contains an educational journey through **Digital Image Processing (DIP)** using **Jupyter Notebooks**, blending:
+
+- Clear theoretical explanations  
+- Mathematical foundations  
+- Visual intuition  
+- Real-world examples  
+- Python implementations
 
 The content is inspired by:
 
-- The course *“Processamento Digital de Imagens”* taught by **Prof. Dr. Jesuliana N. Ulysses**, which I attended during my undergraduate studies in Computer Science.  
-- The book *“A Computational Introduction to Digital Image Processing”* by **Alasdair McAndrew**.
+- The course *“Processamento Digital de Imagens”* taught by **Prof. Dr. Jesuliana N. Ulysses** (UFSJ)
+- The book *“A Computational Introduction to Digital Image Processing”* — **Alasdair McAndrew**
 
 ---
 
 ## 🎯 Objectives
 
-This project aims to provide a **practical and structured introduction** to digital image processing through:
+This project aims to be a **self-contained learning path** for students and practitioners, offering:
 
-1. **Interactive notebooks** that mix explanations, mathematics, and code.  
-2. **Hands-on exercises** that reinforce theoretical understanding.  
-3. **Real examples and images** demonstrating key operations.  
-4. **A clean file structure** separating code, exercises, and visual resources.
+1. **Interactive notebooks** that build concepts step-by-step  
+2. **Hands-on exercises** to reinforce learning  
+3. **Real images & experiments** to visualize concepts  
+4. **Clean modular structure**, mirroring a university-level DIP course  
+5. A foundation for **future computer vision topics** (filters, segmentation, ML, CV tasks)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Start Learning
 
-Start by exploring the notebooks inside the [`notebooks/`](./notebooks) folder.  
-Each notebook introduces a new topic and builds on previous concepts.
+Start in the first module:
 
-👉 **Recommended path:**
-1. Open `01-introduction.ipynb` to understand the basics.  
-2. Continue sequentially through the next notebooks (`02-fundamentals.ipynb`, `03-pixel-relationships.ipynb`, etc.).  
-3. Refer to the corresponding **Exercises** in [`exercises/`](./exercises) for additional practice.  
-4. Explore the **Practice** activities in [`practices/`](./practices) for real-world or experimental challenges.
+👉 `01-introduction/01-introduction.ipynb`
 
-Each notebook contains:
-- Explanations and equations  
-- Visual examples using sample images  
-- Python implementations with comments  
-- References to related exercises and practices
+Then follow notebooks in numeric order. Each module contains:
+
+- Core theory notebook(s)
+- Python experiments
+- Exercises
+- Practice activities
+
+### Recommended Flow
+
+1. **Concept notebook** — understand theory  
+2. **Code demo notebook** — experiment visually  
+3. **Exercises** — confirm understanding  
+4. **Practice notebooks** — explore real world challenges
 
 ---
 
@@ -44,81 +54,86 @@ Each notebook contains:
 ```bash
 image-processing/
 │
-├── notebooks/
-│   ├── 01-introduction.ipynb
-│   ├── 02-fundamentals.ipynb
-│   ├── 03-pixel-relationships.ipynb
-│   ├── 04-intensity-transformations.ipynb
-│   ├── 05-histogram-processing.ipynb
-│   ├── 06-smoothing-filters.ipynb
-│   ├── 07-sharpening-filters.ipynb
-│   ├── 08-frequency-domain.ipynb
-│   ├── 09-edge-detection.ipynb
-│   ├── 10-thresholding.ipynb
-│   └── 11-region-growing.ipynb
-│   └── ...
+├── 01-introduction/
+│   ├── notebooks/
+│   │   ├── 01-introduction.ipynb
+│   │   ├── 02-digital-images.ipynb
+│   │   ├── 03-sampling-quantization.ipynb
+│   │   ├── 04-python-environment.ipynb
+│   │   └── 05-first-operations.ipynb
+│   │
+│   ├── exercises/
+│   │   ├── Exercise01.ipynb
+│   │
+│   ├── practices/
+│   │   ├── Practice01.ipynb
+│   │
+│   ├── images/
+│   │   ├── source/
+│   │   │   ├── lena_gray.png
+│   │   │   ├── cameraman.png
+│   │   │   └── ...
+│   └── └── outputs/
 │
-├── exercises/
-│   ├── Exercise01.ipynb
-│   ├── Exercise02.ipynb
-│   ├── Exercise03.ipynb
-│   ├── Exercise04.ipynb
-│   ├── Exercise05.ipynb
-│   ├── Exercise06.ipynb
-│   └── Exercise07.ipynb
+├── 02-fundamentals/
+│   ├── notebooks/
+│   ├── exercises/
+│   ├── practices/
+│   ├── images/
+│   │   ├── source/
+│   └── └── outputs/
 │
-├── practices/
-│   ├── Practice01.ipynb
-│   ├── Practice02.ipynb
-│   └── ...
-│
-├── images/
-│   ├── notebook01/
-│   │   ├── lena_gray.png
-│   │   ├── cameraman.png
-│   │   └── sample_01.png
-│   ├── notebook02/
-│   │   └── ...
-│   ├── exercise01/
-│   │   └── ...
-│   ├── practice01/
-│   │   └── ...
-│   └── ...
+│   03-.../
+│   04-.../
 │
 └── README.md
 ```
 
-## 🧰 Technologies and Tools
-
-- **Python 3**
-- **NumPy** – numerical computations  
-- **Matplotlib** – plotting and visualization  
-- **OpenCV** – image manipulation and processing  
-- **scikit-image** – advanced image analysis tools  
-- **Jupyter Notebook** – interactive learning environment
+> 🔁 Each folder = one learning module
+> 📓 Each module = theory + experiments + exercises + practice
 
 ---
 
-## 🧑‍🏫 Writing and Style
+## 🧰 Tools & Libraries
 
-All materials are written in **English**, focusing on clarity and learning.  
-Each notebook includes:
+We use the standard Python image-science stack:
 
-- Mathematical foundations and formulas  
-- Step-by-step Python implementations  
-- Visual examples and explanations  
-- Links to related exercises and practices  
+* **Python 3**
+* **NumPy** — matrix & pixel operations
+* **Matplotlib** — plotting & visualization
+* **OpenCV (`cv2`)** — image processing toolbox
+* **scikit-image (`skimage`)** — scientific image algorithms
+* **Jupyter Notebook** — interactive learning environment
 
 ---
 
-## 🪶 References and Attribution
+## 🧑‍🏫 Learning Style
 
-> Based on course materials created by **Prof. Dr. Jesuliana N. Ulysses**,  
-> and on concepts from *A Computational Introduction to Digital Image Processing* by **Alasdair McAndrew**.
+All notebooks are written for **clarity and intuition**, using:
+
+* Step-by-step explanations
+* Visual reasoning
+* Code comments & inline notes
+* Side-by-side original vs processed results
+* Notebook questions & reflection prompts
+
+Where applicable, we also include:
+
+* Pixel grids
+* Histograms
+* Annotated diagrams
+* Progressive examples (simple → real images)
+
+---
+
+## 🪶 References
+
+> Course materials by **Prof. Dr. Jesuliana N. Ulysses** (UFSJ)
+> *A Computational Introduction to Digital Image Processing* — **Alasdair McAndrew**
 
 ---
 
 ## 📬 Author
 
-**Caio Fromm**  
-👩‍💻 [github.com/fromcaio](https://github.com/fromcaio)
+**Caio Fromm**
+📎 GitHub: [https://github.com/fromcaio](https://github.com/fromcaio)
