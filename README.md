@@ -1,5 +1,7 @@
 # 🧠 Digital Image Processing — Interactive Notebooks
 
+![Demo Gif](demo.gif)
+
 This repository contains an educational journey through **Digital Image Processing (DIP)** using **Jupyter Notebooks**, blending:
 
 - Clear theoretical explanations  
@@ -12,6 +14,7 @@ The content is inspired by:
 
 - The course *“Processamento Digital de Imagens”* taught by **Prof. Dr. Jesuliana N. Ulysses** (UFSJ)
 - The book *“A Computational Introduction to Digital Image Processing”* — **Alasdair McAndrew**
+
 
 ---
 
