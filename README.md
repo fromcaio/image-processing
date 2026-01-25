@@ -138,5 +138,5 @@ Where applicable, we also include:
 
 ## 📬 Author
 
-**Caio Fromm**
+**From Caio**
 📎 GitHub: [https://github.com/fromcaio](https://github.com/fromcaio)
